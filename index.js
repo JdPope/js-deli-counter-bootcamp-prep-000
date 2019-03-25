@@ -1,7 +1,8 @@
 var count = 1
 function takeANumber(line, count){line.push(count)
-var place = line.length()
-var current  = 
+//var place = line.length()
+var current  = count
+count++
  return `Welcome, You are number ${current} in line.` 
 }
 
