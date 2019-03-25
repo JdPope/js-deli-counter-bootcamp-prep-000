@@ -1,8 +1,8 @@
 var count = 1
-function takeANumber(line, number){line.push(number)
-var count = line.length
-  
- return `Welcome, You are number ${count} in line.` 
+function takeANumber(line, count){line.push(count)
+var place = line.length()
+var current  = 
+ return `Welcome, You are number ${current} in line.` 
 }
 
 function nowServing(line){if(line.length>=1){
