@@ -1,4 +1,5 @@
-function takeANumber(line){line.push()
+var count = 1
+function takeANumber(line, number){line.push(number)
 var count = line.length
   
  return `Welcome, You are number ${count} in line.` 
