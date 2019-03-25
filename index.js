@@ -1,7 +1,7 @@
 function takeANumber(line){line.push()
 var count = line.length
   
- return `Welcome, ${name}. You are number ${count} in line.` 
+ return `Welcome, You are number ${count} in line.` 
 }
 
 function nowServing(line){if(line.length>=1){
